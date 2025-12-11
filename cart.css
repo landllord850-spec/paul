@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: goldenrod;
+    justify-content: center;
+    text-align: center;
+    color: black;
+     
+}
+.IT a{
+    color: red;
+    text-decoration:none;
+    
+    
+}
+p, h2{
+    color: black ;
+}
+.IT a:hover{
+  
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+}
+.IT{
+    margin-top: 170px;
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: goldenrod;
+ 
+    color: white;
+    margin: 0;
+    align-items: center;
+    
+}
+
+header {
+    display: flex;
+    position: sticky;
+    justify-content: center;
+    padding:20px;
+    border-radius: 9px;
+    left: 20px;
+    background: linear-gradient(50deg, red,yellow);
+    flex-wrap: wrap;
+    top: 0;
+    width: 100vw;
+    z-index: 9999999;
+     
+
+}
+
+header strong{
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header span{
+    color: rgb(9, 14, 255);
+    font-size: 50px;
+    
+}
+header nav {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 19px;
+    text-align: center;
+    gap: 10px;
+    z-index: 9999;
+    
+    
+}
+header nav a {
+    color: rgb(240, 238, 238);
+    text-decoration: none;
+    text-align: center;
+     
+   
+   
+   
+    
+}
+header nav :hover {
+    color: rgb(0, 0, 0);
+   
+}
+
+
+

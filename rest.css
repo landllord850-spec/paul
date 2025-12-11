@@ -1,0 +1,288 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: goldenrod;
+ 
+    color: white;
+    margin: 0;
+    align-items: center;
+    
+}
+
+header {
+    display: flex;
+    position: sticky;
+    justify-content: center;
+    padding:20px;
+    border-radius: 9px;
+    left: 20px;
+    background: linear-gradient(50deg, red,yellow);
+    flex-wrap: wrap;
+    top: 0;
+    width: 100vw;
+    z-index: 9999999;
+     
+
+}
+
+header strong{
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header span{
+    color: rgb(9, 14, 255);
+    font-size: 50px;
+    
+}
+header nav {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 19px;
+    text-align: center;
+    gap: 10px; 
+    
+}
+header nav a {
+    color: rgb(240, 238, 238);
+    text-decoration: none;
+    text-align: center;
+       
+    
+}
+
+header nav :hover {
+    color: rgb(32, 110, 226);
+   
+}
+.item1 a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+   
+}
+@keyframes bounce {
+                0%{ transform: translateY(0);}
+                50%{ transform: translateY(-10px);}
+                100%{ transform: translateY(0);}
+                100%{ transform: scale(1);}
+
+
+            }
+button {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    animation: bounce 4.9s infinite;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 20px;
+   
+   
+ 
+    
+}
+button :hover {
+    color: goldenrod;
+    
+}
+.item1 {
+    background-image: url(image/rest\ dia2.jpg);
+    height: 50vh;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0;
+    color: rgb(254, 254, 255);
+    box-shadow: 0 6px 6px black;
+    padding: 100px;
+}
+.item1 p {
+    font-size: 20px;
+  
+    margin-top: 35px;
+    color: rgb(255, 255, 255);
+}
+
+ .item1 h2 {
+    text-align: center;
+     padding-top: 50px;
+}
+header nav {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+    text-align: center;
+    gap: 13px;
+    z-index: 9999;
+}
+header nav a {
+    color: rgb(255, 248, 248);
+    text-decoration: none;
+    text-align: center;
+  
+
+    
+}
+header nav :hover{
+    color: rgb(0, 0, 0);
+}
+.featured h3{
+    color: aliceblue;
+    margin: 10px;
+    font-size: 30px;
+    animation:featured 2s ease infinite;
+   
+}
+@keyframes featured{
+    0%{
+     text-shadow: 
+    0 0 10px cyan,
+    0 0 20px cyan,
+    0 0 40px rgb(231, 231, 231);
+    }
+}
+
+body{
+    background: linear-gradient(50deg, goldenrod);
+    color: white;
+    margin: 0;
+    align-items: center;
+    
+}
+.container {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+
+   
+}
+.card{
+    padding: 20px 10px;
+    border-radius: 40px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 15px;
+    text-align: center;
+    justify-content: center;
+  
+    z-index: 99999;
+    background-color: whitesmoke;
+    
+}
+.card:hover{
+    animation: card 1s ease;
+}
+@keyframes card{
+    0%{
+        transform: translateX(0px)translateZ(0px)rotateX(0deg) ;
+    
+    }
+    50%{
+        transform: translateY(12px);
+    }
+}
+@keyframes bounce {
+                0%{ transform: translateY(0);}
+                50%{ transform: translateY(-10px);}
+                100%{ transform: translateY(0);}
+                100%{ transform: scale(1);}
+
+
+            }
+   
+h3 {
+    text-align: center;
+    color: red;
+    margin: 10px;
+   
+}
+
+
+p{
+    text-align: center;
+    color: black;
+    
+
+}
+
+
+.card a {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(245, 243, 243);
+    
+}
+button{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 3px;
+    margin: 25px 30px;
+}
+button:hover{
+    background-color: gold;
+}
+.item1 button{
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px 15px;
+}
+img{
+    height: 100px;
+    width: 190px;
+    animation: bounce 4.9s infinite;
+    border-radius: 15px;
+
+}
+
+footer{
+    display: flex;
+    color: black;
+    background-color: rgb(233, 212, 20);
+    height: 10vh;
+    text-align: center;
+    justify-content: center;
+}
+footer p {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    margin: 13px 15px;
+    margin-bottom: 30px;
+}
+footer p span {
+    color:blue;
+}
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
